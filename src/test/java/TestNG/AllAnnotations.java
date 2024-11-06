@@ -49,5 +49,6 @@ public class AllAnnotations {
 	{
 	System.out.println("This is after suite");	
 	}
+	
 
 }

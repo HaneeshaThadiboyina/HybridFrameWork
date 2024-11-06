@@ -4,6 +4,7 @@
   <test name="Test1">
     <classes>
         <class name="TestNG.AllAnnotations"/>
+        <class name="TestNG.ClassAnnotation"/>
     </classes>
   </test> <!-- Test -->
 

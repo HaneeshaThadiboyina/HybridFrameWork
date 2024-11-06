@@ -3,16 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG_Listeners.TestClass">
+      <class name="Exceptions.ExceptionHandling">
         <methods>
-          <include name="TestFacebook"/>
-          <include name="setup"/>
-          <include name="TestGoogle"/>
-          <include name="teardown"/>
-          <include name="TestOrangeHRM"/>
-          <include name="screenshotCapture"/>
+          <include name="exception"/>
         </methods>
-      </class> <!-- TestNG_Listeners.TestClass -->
+      </class> <!-- Exceptions.ExceptionHandling -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
